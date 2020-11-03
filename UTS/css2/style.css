@@ -1,0 +1,442 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body, html {
+	height: 100%;
+  }
+  
+  .bg {
+	/* The image used */
+	background-image: url("logo");
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(logo);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float:  right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration:  none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #800080;
+	color: #fff;
+}
+
+ul li.active a{
+	background-color: #800080;
+	color: #fff;
+}
+.logo img{
+	float: left;
+	width: 120px;
+	height: auto;
+}
+
+.main{
+	max-width: 1500px;
+	margin: auto;
+}
+
+.asal{
+	position: absolute;
+	top: 66%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 14px;
+}
+.asal2{
+	position: absolute;
+	top: 57%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 11px;
+}
+
+.xxx img{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 380px;
+}
+
+.qwe img{
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+}
+
+table{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+table th p{
+	text-decoration:  none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+table th.qqq{
+	background-color: #808080;
+	color: #fff;
+}
+
+table th.eee{
+	background-color: #008b8b;
+	color: #fff;
+}
+
+table th.rrr{
+	background-color: #cd5c5c;
+	color: #fff;
+}
+
+table th.namars{
+	background-color: #0000FF;
+	color: #fff;
+}
+
+
+
+
+.uuu img{
+	position: absolute;
+	top: 66%;
+	left: 39%;
+	transform: translate(-50%,-50%);
+	width: 645px;
+	height: 450px;
+}
+
+
+
+table th.ppp{
+	color: #fff;
+	position: absolute;
+	top: 145%;
+	left: 100%;
+	transform: translate(-50%,-50%);
+}
+table th.ppp{
+	background-color: #808000;
+	color: #fff;
+}
+
+table th.ppp{
+	text-decoration:  none;
+	color: #fff;
+	padding: 1px 9px;
+	border: 3px solid transparent;
+}
+
+.sss{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(45%,-55%);
+}
+
+.sss h1{
+	color: #fff;
+	font-size: 20px;
+}
+
+.situs{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(45%,-55%);
+}
+
+.situs h1{
+	color: #fff;
+	font-size: 20px;
+}
+.ggg{
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+}
+.ggg h1{
+	color: #fff;
+	font-size: 15px;
+}
+
+.fff2 img{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+}
+
+.fff{
+	position: absolute;
+	top: 25%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 9px;
+}
+
+.fff3{
+	position: absolute;
+	top: 60%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 15px;
+}
+
+.hhh{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	transform: translate(-50%,-50%);
+}
+.hhh h1{
+	color: #fff;
+	font-size: 15px;
+	}
+
+.kkk2 img{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	width: 280px;
+}
+
+.kkk{
+	position: absolute;
+	top: 30%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 11px;
+}
+
+.kkk3{
+	position: absolute;
+	top: 70%;
+	left: 51%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 14px;
+}
+
+.jjj{
+	position: absolute;
+	top: 45%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+}
+.jjj h1{
+	color: #fff;
+	font-size: 15px;
+}
+
+.lll{
+	position: absolute;
+	top: 20%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+}
+.lll h1{
+	color: #fff;
+	font-size: 20px;
+}
+
+.lll2 img{
+	position: absolute;
+	top: 35%;
+	left: 12%;
+	transform: translate(-50%,-50%);
+	width: 280px;
+}
+
+.lll3 img{
+	position: absolute;
+	top: 65%;
+	left: 7%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+}
+
+.lll4 img{
+	position: absolute;
+	top: 68%;
+	left: 18%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+}
+
+.mmm{
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+.mmm h1{
+	color: #fff;
+	font-size: 23px;
+}
+
+.mmm2 img{
+	position: absolute;
+	top: 45%;
+	left: 42%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+}
+
+.mmm3 img{
+	position: absolute;
+	top: 76%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	width: 230px;
+}
+
+.mmm4 img{
+	position: absolute;
+	top: 76%;
+	left: 52%;
+	transform: translate(-50%,-50%);
+	width: 230px;
+}
+
+.nnn{
+	position: absolute;
+	top: 20%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+}
+.nnn h1{
+	color: #fff;
+	font-size: 23px;
+}
+
+.nnn2 img{
+	position: absolute;
+	top: 40%;
+	left: 68%;
+	transform: translate(-50%,-50%);
+	width: 280px;
+}
+
+.nnn3 img{
+	position: absolute;
+	top: 40%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+	width: 250px;
+}
+
+.nnn4 img{
+	position: absolute;
+	top: 72%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+}
+
+.vvv iframe{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.vvv2{
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.vvv2 h1{
+	color: #fff;
+	font-size: 25px;
+}
+
+.bbb h1{
+	position: absolute;
+	top: 42%;
+	left: 39%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 23px;
+}
+
+.bbb2 h1{
+	position: absolute;
+	top: 47%;
+	left: 39%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 23px;
+}
+
+.bbb3 h1{
+	position: absolute;
+	top: 52%;
+	left: 39%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 23px;
+}
+
+.bbb4 h1{
+	position: absolute;
+	top: 57%;
+	left: 39%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 23px;
+}
+
+
+.pp img{
+	position: absolute;
+	top: 48%;
+	left: 64%;
+	transform: translate(-50%,-50%);
+	width: 200px;
+}
